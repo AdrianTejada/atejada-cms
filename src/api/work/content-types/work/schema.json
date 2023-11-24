@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "works",
+  "info": {
+    "singularName": "work",
+    "pluralName": "works",
+    "displayName": "work",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pathName": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "customField",
+      "options": [
+        "Front-End Development",
+        "Back-End Development",
+        "UI/UX Design"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "techStack": {
+      "type": "customField",
+      "options": [
+        "Next.js",
+        "Expo",
+        "TailwindCSS",
+        "D3",
+        "Strapi",
+        "Alpine.js",
+        "Shopify Liquid",
+        "MongoDB",
+        "Express.js",
+        "Styled-Components",
+        "P5.js",
+        "Framer Motion",
+        "React Native",
+        "PHP",
+        "MySQL",
+        "Cloudinary"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "caseStudyUrl": {
+      "type": "string"
+    },
+    "projectUrl": {
+      "type": "string"
+    },
+    "details": {
+      "type": "text"
+    },
+    "hoverSummary": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "year": {
+      "type": "string"
+    }
+  }
+}
