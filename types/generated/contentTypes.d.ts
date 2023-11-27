@@ -750,6 +750,7 @@ export interface ApiWorkWork extends Schema.CollectionType {
     hoverSummary: Attribute.Text;
     images: Attribute.Media;
     year: Attribute.String;
+    order: Attribute.Integer;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

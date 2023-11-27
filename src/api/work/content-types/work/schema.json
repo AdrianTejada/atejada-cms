@@ -74,6 +74,9 @@
     },
     "year": {
       "type": "string"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
