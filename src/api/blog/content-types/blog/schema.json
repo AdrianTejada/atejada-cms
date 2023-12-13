@@ -15,14 +15,22 @@
     "title": {
       "type": "string"
     },
-    "writtenAt": {
-      "type": "date"
-    },
-    "content": {
-      "type": "blocks"
-    },
     "pathName": {
       "type": "string"
+    },
+    "level": {
+      "type": "enumeration",
+      "enum": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ]
+    },
+    "length": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }

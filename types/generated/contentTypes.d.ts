@@ -690,9 +690,10 @@ export interface ApiBlogBlog extends Schema.CollectionType {
   };
   attributes: {
     title: Attribute.String;
-    writtenAt: Attribute.Date;
-    content: Attribute.Blocks;
     pathName: Attribute.String;
+    level: Attribute.Enumeration<['Beginner', 'Intermediate', 'Advanced']>;
+    length: Attribute.String;
+    content: Attribute.RichText;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
