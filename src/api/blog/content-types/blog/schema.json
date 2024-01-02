@@ -18,19 +18,14 @@
     "pathName": {
       "type": "string"
     },
-    "level": {
-      "type": "enumeration",
-      "enum": [
-        "Beginner",
-        "Intermediate",
-        "Advanced"
-      ]
-    },
     "length": {
       "type": "string"
     },
     "content": {
       "type": "richtext"
+    },
+    "hoverSummary": {
+      "type": "text"
     }
   }
 }

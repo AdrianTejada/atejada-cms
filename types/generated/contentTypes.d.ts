@@ -691,9 +691,9 @@ export interface ApiBlogBlog extends Schema.CollectionType {
   attributes: {
     title: Attribute.String;
     pathName: Attribute.String;
-    level: Attribute.Enumeration<['Beginner', 'Intermediate', 'Advanced']>;
     length: Attribute.String;
     content: Attribute.RichText;
+    hoverSummary: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
